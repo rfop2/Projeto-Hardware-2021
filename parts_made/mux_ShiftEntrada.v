@@ -1,4 +1,4 @@
-module mux_ulaA(
+module mux_ShiftEntrada(
     input wire          selector,
     input wire          [31:0] Data_0,
     input wire          [31:0] Data_1,
