@@ -11,7 +11,7 @@ module WriteRegister(
     wire [4:0] A2;
     wire [4:0] input_two;
 
-    assign input_two = b[15:11];
+    assign input_two = offset[15:11];
 
     assign A1 = (selector[0]) ? input_two : input_one;
     assign A2 = (selector[0]) ? 5'b11111 : input_three; // 5'b11111 eh ra

@@ -1,0 +1,95 @@
+# Compile of Banco_reg.vhd was successful.
+# Compile of Instr_Reg.vhd was successful.
+# Compile of Memoria.vhd was successful.
+# Compile of RegDesloc.vhd was successful.
+# Compile of Registrador.vhd was successful.
+# Compile of ula32.vhd was successful.
+# Compile of calc_jump.v was successful.
+# Compile of cpu.v was successful.
+# Compile of ctrl_unit.v was successful with warnings.
+# Compile of divisao.v was successful.
+# Compile of multiplicacao.v was successful.
+# Compile of mux_Exception.v was successful with warnings.
+# Compile of mux_Iord.v was successful with warnings.
+# Compile of mux_multOrDiv.v was successful.
+# Compile of mux_multOrDivHi.v was successful.
+# Compile of mux_multOrDivLo.v was successful.
+# Compile of mux_PCSource.v was successful with warnings.
+# Compile of mux_ShiftEntrada.v was successful with warnings.
+# Compile of mux_ShiftN.v was successful with warnings.
+# Compile of mux_ulaA.v was successful with warnings.
+# Compile of mux_ulaB.v was successful with warnings.
+# Compile of mux_WriteData.v was successful with warnings.
+# Compile of mux_WriteRegister.v was successful with warnings.
+# Compile of shift_left2_32.v was successful.
+# Compile of sign_extend_1_32.v was successful.
+# Compile of sign_extend_16_32.v was successful.
+# 26 compiles, 0 failed with no errors.
+# can't read "Startup(-L)": no such element in array
+# Load canceled
+vsim work.mux_ulaB
+# vsim work.mux_ulaB 
+# Start time: 21:36:53 on Jul 27,2021
+# Loading work.mux_ulaB
+add wave -position insertpoint sim:/mux_ulaB/*
+add dataflow sim:/mux_ulaB/*
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/mux_ulaB/selector \
+sim:/mux_ulaB/Data_0 \
+sim:/mux_ulaB/Data_1 \
+sim:/mux_ulaB/Data_2 \
+sim:/mux_ulaB/Data_out
+force -freeze sim:/mux_ulaB/selector 00 0
+force -freeze sim:/mux_ulaB/Data_0 000000000000000000000000000000110 0
+force -freeze sim:/mux_ulaB/Data_0 00000000000000000000000000000110 0
+force -freeze sim:/mux_ulaB/Data_1 00000000000000000000000000000111 0
+force -freeze sim:/mux_ulaB/Data_2 00000000000000000000000000000101 0
+run
+# WARNING: No extended dataflow license exists
+force -freeze sim:/mux_ulaB/selector 00 0
+force -freeze sim:/mux_ulaB/Data_1 00000000000000000000000000000111 0
+force -freeze sim:/mux_ulaB/Data_2 00000000000000000000000000001111 0
+run
+add wave -position insertpoint  \
+sim:/mux_ulaB/selector \
+sim:/mux_ulaB/Data_0 \
+sim:/mux_ulaB/Data_1 \
+sim:/mux_ulaB/Data_2 \
+sim:/mux_ulaB/Data_out
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/mux_ulaB/selector \
+sim:/mux_ulaB/Data_0 \
+sim:/mux_ulaB/Data_1 \
+sim:/mux_ulaB/Data_2 \
+sim:/mux_ulaB/Data_out
+# WARNING: No extended dataflow license exists
+vsim work.mux_ulaB
+# End time: 21:51:15 on Jul 27,2021, Elapsed time: 0:14:22
+# Errors: 0, Warnings: 6
+# vsim work.mux_ulaB 
+# Start time: 21:51:15 on Jul 27,2021
+# Loading work.mux_ulaB
+add wave -position insertpoint  \
+sim:/mux_ulaB/selector \
+sim:/mux_ulaB/Data_0 \
+sim:/mux_ulaB/Data_1 \
+sim:/mux_ulaB/Data_2 \
+sim:/mux_ulaB/Data_out
+force -freeze sim:/mux_ulaB/selector 00 0
+force -freeze sim:/mux_ulaB/Data_0 000000000000000000000000000000110 0
+force -freeze sim:/mux_ulaB/Data_1 000000000000000000000000000000111 0
+force -freeze sim:/mux_ulaB/Data_2 000000000000000000000000000001111 0
+run
+force -freeze sim:/mux_ulaB/Data_2 00000000000000000000000000011111 0
+run
+force -freeze sim:/mux_ulaB/selector 01 0
+run
+force -freeze sim:/mux_ulaB/selector 11 0
+run
+force -freeze sim:/mux_ulaB/selector 10 0
+run
+# End time: 22:57:10 on Jul 27,2021, Elapsed time: 1:05:55
+# Errors: 0, Warnings: 1
