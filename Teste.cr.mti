@@ -30,12 +30,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	cpu
 
-} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDivLo.v {1 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDivLo.v
+} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/instruction_25.v {1 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/instruction_25.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module mux_multOrDiv3
+-- Compiling module instruction_25
 
 Top level modules:
-	mux_multOrDiv3
+	instruction_25
+
+} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDivLo.v {1 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDivLo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_multOrDivLo
+
+Top level modules:
+	mux_multOrDivLo
 
 } {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/sign_extend_1_32.v {1 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/sign_extend_1_32.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -52,15 +59,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity Registrador
 -- Compiling architecture behavioral_arch of Registrador
 
-} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ShiftN.v {2 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ShiftN.v
+} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_shiftN.v {2 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_shiftN.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ShiftN
-** Warning: C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ShiftN.v(20): (vlog-2283) Extra semicolon in $unit (global) scope.
-** Warning: C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ShiftN.v(20): (vlog-2284) Empty $unit scope found.
--- Compiling package mux_ShiftN_v_unit
+-- Compiling module mux_shiftN
+** Warning: C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_shiftN.v(20): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_shiftN.v(20): (vlog-2284) Empty $unit scope found.
+-- Compiling package mux_shiftN_v_unit
 
 Top level modules:
-	ShiftN
+	mux_shiftN
 
 } {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_PCSource.v {2 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_PCSource.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -94,27 +101,27 @@ Top level modules:
 
 } {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDiv.v {1 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDiv.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module mux_multOrDiv1
+-- Compiling module mux_multOrDiv
 
 Top level modules:
-	mux_multOrDiv1
+	mux_multOrDiv
 
 } {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDivHi.v {1 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDivHi.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module mux_multOrDiv2
+-- Compiling module mux_multOrDivHi
 
 Top level modules:
-	mux_multOrDiv2
+	mux_multOrDivHi
 
-} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_WriteRegister.v {2 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_WriteRegister.v
+} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_writeRegister.v {2 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_writeRegister.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module WriteRegister
-** Warning: C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_WriteRegister.v(20): (vlog-2283) Extra semicolon in $unit (global) scope.
-** Warning: C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_WriteRegister.v(20): (vlog-2284) Empty $unit scope found.
--- Compiling package mux_WriteRegister_v_unit
+-- Compiling module mux_writeRegister
+** Warning: C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_writeRegister.v(20): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_writeRegister.v(20): (vlog-2284) Empty $unit scope found.
+-- Compiling package mux_writeRegister_v_unit
 
 Top level modules:
-	WriteRegister
+	mux_writeRegister
 
 } {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/sign_extend_16_32.v {1 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/sign_extend_16_32.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -131,16 +138,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity Instr_Reg
 -- Compiling architecture behavioral_arch of Instr_Reg
 
-} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaA.v {2 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaA.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module mux_ulaA
-** Warning: C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaA.v(10): (vlog-2283) Extra semicolon in $unit (global) scope.
-** Warning: C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaA.v(10): (vlog-2284) Empty $unit scope found.
--- Compiling package mux_ulaA_v_unit
-
-Top level modules:
-	mux_ulaA
-
 } {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/ctrl_unit.v {2 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/ctrl_unit.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ctrl_unit
@@ -149,6 +146,25 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	ctrl_unit
+
+} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaA.v {2 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaA.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux_ulaA
+** Warning: C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaA.v(17): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaA.v(17): (vlog-2284) Empty $unit scope found.
+-- Compiling package mux_ulaA_v_unit
+
+Top level modules:
+	mux_ulaA
+
+} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/ula32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/ula32.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Ula32
+-- Compiling architecture behavioral of Ula32
 
 } {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaB.v {2 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaB.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -160,30 +176,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	mux_ulaB
 
-} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/ula32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/ula32.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity Ula32
--- Compiling architecture behavioral of Ula32
-
-} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/shift_left2_32.v {1 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/shift_left2_32.v
+} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/calc_jump.v {1 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/calc_jump.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module shift_left2_32
+-- Compiling module calc_Jump
 
 Top level modules:
-	shift_left2_32
-
-} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Banco_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Banco_reg.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity Banco_reg
--- Compiling architecture behavioral_arch of Banco_reg
+	calc_Jump
 
 } {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/RegDesloc.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/RegDesloc.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -194,12 +192,35 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity RegDesloc
 -- Compiling architecture behavioral_arch of RegDesloc
 
-} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/calc_jump.v {1 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/calc_jump.v
+} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Banco_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Banco_reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Banco_reg
+-- Compiling architecture behavioral_arch of Banco_reg
+
+} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/shift_left2_32.v {1 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/shift_left2_32.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module calc_Jump
+-- Compiling module shift_left2_32
 
 Top level modules:
-	calc_Jump
+	shift_left2_32
+
+} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/multiplicacao.v {1 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/multiplicacao.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplicacao
+
+Top level modules:
+	multiplicacao
+
+} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/divisao.v {1 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/divisao.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module divisao
+
+Top level modules:
+	divisao
 
 } {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_Iord.v {2 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_Iord.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -210,19 +231,5 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 
 Top level modules:
 	mux_Iord
-
-} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/divisao.v {1 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/divisao.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module divisao
-
-Top level modules:
-	divisao
-
-} {} {}} C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/multiplicacao.v {1 {vlog -work work -stats=none C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/multiplicacao.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module multiplicacao
-
-Top level modules:
-	multiplicacao
 
 } {} {}}

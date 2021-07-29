@@ -1,8 +1,8 @@
 m255
 K4
 z2
-!s11e MIXED_VERSIONS
-!s11f vlog 2020.1 2020.02, Feb 28 2020
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
@@ -15,7 +15,7 @@ Z0 w1627345835
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 102
+!i122 135
 Z4 dC:/Users/Admin/Desktop/Projeto-Hardware-2021
 Z5 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Banco_reg.vhd
 Z6 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Banco_reg.vhd
@@ -25,9 +25,9 @@ V:adHbk0Ym0TAKYW83J5Y[3
 !s100 hZ46CT_BzQl8j]02_Vf=o2
 Z7 OV;C;2020.1;71
 32
-Z8 !s110 1627432382
+Z8 !s110 1627582341
 !i10b 1
-Z9 !s108 1627432382.000000
+Z9 !s108 1627582341.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Banco_reg.vhd|
 Z11 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Banco_reg.vhd|
 !i113 1
@@ -38,7 +38,7 @@ R1
 R2
 R3
 DEx4 work 9 banco_reg 0 22 :adHbk0Ym0TAKYW83J5Y[3
-!i122 102
+!i122 135
 l93
 L85 34
 VY7l=BkTbhRVIWWGL4mMo60
@@ -54,106 +54,106 @@ R11
 R12
 R13
 vcalc_Jump
-Z14 !s110 1627432383
+R8
 !i10b 1
 !s100 RcE]VAX3^M^E@`OPeUHQn3
-Z15 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z14 !s11b Dg1SIo80bB@j0V0VzS_@n1
 Ii@NL;cXcS>aWATCA`B2bf3
-Z16 VDg1SIo80bB@j0V0VzS_@n1
+Z15 VDg1SIo80bB@j0V0VzS_@n1
 R4
 w1627349079
 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/calc_jump.v
 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/calc_jump.v
-!i122 108
-Z17 L0 1 13
-Z18 OV;L;2020.1;71
+!i122 141
+Z16 L0 1 13
+Z17 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z19 !s108 1627432383.000000
+R9
 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/calc_jump.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/calc_jump.v|
 !i113 1
-Z20 o-work work
-Z21 tCvgOpt 0
+Z18 o-work work
+Z19 tCvgOpt 0
 ncalc_@jump
 vcpu
-Z22 !s110 1627432384
+Z20 !s110 1627582342
 !i10b 1
-!s100 <4Rk=F002GcB;[En7dc<k3
+!s100 ^kL7zfOBHZB?hU@]C;`8E2
+R14
+Iam<La8L=E?cdB?T777_mj0
 R15
-IG4iLA79H4R<:=n^X7C05f3
-R16
 R4
-w1627410703
+w1627514284
 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/cpu.v
 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/cpu.v
-!i122 109
+!i122 142
 L0 1 374
-R18
+R17
 r1
 !s85 0
 31
-R19
+R9
 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/cpu.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/cpu.v|
 !i113 1
-R20
-R21
+R18
+R19
 vctrl_unit
-R22
+R20
 !i10b 1
 !s100 7XNXHH2CI9RKk:b<zJ@>70
-R15
+R14
 I6iIiZ^XCY=:=9gXL:aWMH0
-R16
+R15
 R4
-w1627425348
+w1627494748
 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/ctrl_unit.v
 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/ctrl_unit.v
-!i122 110
+!i122 143
 L0 1 609
-R18
+R17
 r1
 !s85 0
 31
-Z23 !s108 1627432384.000000
+Z21 !s108 1627582342.000000
 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/ctrl_unit.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/ctrl_unit.v|
 !i113 1
-R20
-R21
+R18
+R19
 vdivisao
-R22
+R20
 !i10b 1
 !s100 2KebF:NgQL<UgmPnY:iXJ0
-R15
+R14
 IMTXhf6A=VUG`lIEB@:W8U2
-R16
+R15
 R4
 w1627348829
 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/divisao.v
 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/divisao.v
-!i122 111
+!i122 144
 L0 1 15
-R18
+R17
 r1
 !s85 0
 31
-R23
+R21
 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/divisao.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/divisao.v|
 !i113 1
-R20
-R21
+R18
+R19
 Einstr_reg
 R0
 R2
 R3
-!i122 103
+!i122 136
 R4
-Z24 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Instr_Reg.vhd
-Z25 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Instr_Reg.vhd
+Z22 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Instr_Reg.vhd
+Z23 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Instr_Reg.vhd
 l0
 L42 1
 VAfV1kYS402dnLRiFO;Z7_2
@@ -163,8 +163,8 @@ R7
 R8
 !i10b 1
 R9
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Instr_Reg.vhd|
-Z27 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Instr_Reg.vhd|
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Instr_Reg.vhd|
+Z25 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Instr_Reg.vhd|
 !i113 1
 R12
 R13
@@ -172,7 +172,7 @@ Abehavioral_arch
 R2
 R3
 DEx4 work 9 instr_reg 0 22 AfV1kYS402dnLRiFO;Z7_2
-!i122 103
+!i122 136
 l59
 L56 32
 VTD836jU:>9m^d?0ed1C0O3
@@ -182,22 +182,45 @@ R7
 R8
 !i10b 1
 R9
-R26
-R27
+R24
+R25
 !i113 1
 R12
 R13
+vinstruction_25
+R20
+!i10b 1
+!s100 TYQR_8SGW6RO<;lZJaH_F1
+R14
+IMLIMDX@`o1h2fPT4]ngPS0
+R15
+R4
+w1627512662
+8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/instruction_25.v
+FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/instruction_25.v
+!i122 145
+Z26 L0 1 10
+R17
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/instruction_25.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/instruction_25.v|
+!i113 1
+R18
+R19
 Ememoria
 R0
-Z28 DPx4 work 13 ram_constants 0 22 BbIcggj=<H_W75Jb?WIoZ0
-Z29 DPx3 lpm 14 lpm_components 0 22 ZZ?0`GZD@?:kcFM0gmf[@1
+Z27 DPx4 work 13 ram_constants 0 22 BbIcggj=<H_W75Jb?WIoZ0
+Z28 DPx3 lpm 14 lpm_components 0 22 ZZ?0`GZD@?:kcFM0gmf[@1
 R1
 R2
 R3
-!i122 104
+!i122 137
 R4
-Z30 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Memoria.vhd
-Z31 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Memoria.vhd
+Z29 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Memoria.vhd
+Z30 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Memoria.vhd
 l0
 L67 1
 V<[RFRXeHV^PMOiiinkBoS0
@@ -207,19 +230,19 @@ R7
 R8
 !i10b 1
 R9
-Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Memoria.vhd|
-Z33 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Memoria.vhd|
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Memoria.vhd|
+Z32 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Memoria.vhd|
 !i113 1
 R12
 R13
 Abehavioral_arch
+R27
 R28
-R29
 R1
 R2
 R3
 DEx4 work 7 memoria 0 22 <[RFRXeHV^PMOiiinkBoS0
-!i122 104
+!i122 137
 l103
 L79 78
 VR9W83dOfA7lWR9j>i6THA2
@@ -229,61 +252,61 @@ R7
 R8
 !i10b 1
 R9
+R31
 R32
-R33
 !i113 1
 R12
 R13
 vmultiplicacao
-R22
+R20
 !i10b 1
 !s100 V?RiNT=>2?k<;]E3eVilL2
-R15
+R14
 IV1UQF3oH7FNXD_R=9>QiZ1
-R16
+R15
 R4
 w1627348835
 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/multiplicacao.v
 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/multiplicacao.v
-!i122 112
+!i122 146
+R16
 R17
-R18
 r1
 !s85 0
 31
-R23
+R21
 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/multiplicacao.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/multiplicacao.v|
 !i113 1
-R20
-R21
+R18
+R19
 vmux_Exception
-R22
+R20
 !i10b 1
 !s100 ZhGzOl2<<PAfPC?0MH]`g1
-R15
+R14
 IIBNTFTQLJ3afk]mY[VSU13
-R16
+R15
 R4
 R0
-Z34 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_Exception.v
-Z35 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_Exception.v
-!i122 113
+Z33 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_Exception.v
+Z34 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_Exception.v
+!i122 147
 L0 1 11
-R18
+R17
 r1
 !s85 0
 31
-R23
-Z36 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_Exception.v|
-Z37 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_Exception.v|
-!i113 1
-R20
 R21
+Z35 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_Exception.v|
+Z36 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_Exception.v|
+!i113 1
+R18
+R19
 nmux_@exception
 Xmux_Exception_v_unit
-Z38 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-R22
+Z37 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R20
 V3CEXO10I1XKmEPQo?QLLd3
 r1
 !s85 0
@@ -294,46 +317,46 @@ I3CEXO10I1XKmEPQo?QLLd3
 S1
 R4
 R0
+R33
 R34
-R35
-!i122 113
+!i122 147
 L0 11 0
-R18
+R17
 31
-R23
-R36
-R37
-!i113 1
-R20
 R21
+R35
+R36
+!i113 1
+R18
+R19
 nmux_@exception_v_unit
 vmux_Iord
-Z39 !s110 1627432385
+R20
 !i10b 1
 !s100 GiB9]MnGfIXTim@1CiDT<3
-R15
+R14
 IJefn9TCTN2X=dgDgHdSZI0
-R16
+R15
 R4
 R0
-Z40 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_Iord.v
-Z41 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_Iord.v
-!i122 114
+Z38 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_Iord.v
+Z39 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_Iord.v
+!i122 148
 L0 1 14
-R18
+R17
 r1
 !s85 0
 31
-R23
-Z42 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_Iord.v|
-Z43 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_Iord.v|
-!i113 1
-R20
 R21
+Z40 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_Iord.v|
+Z41 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_Iord.v|
+!i113 1
+R18
+R19
 nmux_@iord
 Xmux_Iord_v_unit
-R38
-R39
+R37
+R20
 VbEfWk5mMZOEW=BWA;=lQ`1
 r1
 !s85 0
@@ -344,118 +367,118 @@ IbEfWk5mMZOEW=BWA;=lQ`1
 S1
 R4
 R0
+R38
+R39
+!i122 148
+L0 14 0
+R17
+31
+R21
 R40
 R41
-!i122 114
-L0 14 0
-R18
-31
-R23
-R42
-R43
 !i113 1
-R20
-R21
+R18
+R19
 nmux_@iord_v_unit
-vmux_multOrDiv1
-R39
+vmux_multOrDiv
+R20
 !i10b 1
-!s100 IjAj2f1KLg6N42GRI7f7:2
+!s100 R`dha3BV>ARghXEKL[Z0I1
+R14
+ITQf>N<j5Xe@=6m9chLSB23
 R15
-IC?h3T8:kL@6f@nX2z1VT40
-R16
 R4
-w1627348445
+w1627512857
 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDiv.v
 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDiv.v
-!i122 115
-Z44 L0 1 10
-R18
+!i122 149
+R26
+R17
 r1
 !s85 0
 31
-Z45 !s108 1627432385.000000
+R21
 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDiv.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDiv.v|
 !i113 1
+R18
+R19
+nmux_mult@or@div
+vmux_multOrDivHi
 R20
-R21
-nmux_mult@or@div1
-vmux_multOrDiv2
-R39
 !i10b 1
-!s100 EAW9?7nTkh@T0QeBFf[bT3
+!s100 QQbALMO>5]@]UL=1`JJZE3
+R14
+IAg5=R;JfRV<C`L`1aYWk00
 R15
-IBdZ<LKdV>@leC7UkDojKI0
-R16
 R4
-w1627348430
+w1627512871
 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDivHi.v
 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDivHi.v
-!i122 116
-R44
-R18
+!i122 150
+R26
+R17
 r1
 !s85 0
 31
-R45
+R21
 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDivHi.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDivHi.v|
 !i113 1
-R20
-R21
-nmux_mult@or@div2
-vmux_multOrDiv3
-R39
+R18
+R19
+nmux_mult@or@div@hi
+vmux_multOrDivLo
+Z42 !s110 1627582343
 !i10b 1
-!s100 hj?]29PKP^LHdaKdkaJZ93
+!s100 :QZ?SkZ^N2@5:T87NJ4N_0
+R14
+ITo]llRSl?NBM=^gi6[I8:3
 R15
-IRQ1D::eh8E^:nE0M5l:8Y3
-R16
 R4
-w1627348440
+w1627512878
 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDivLo.v
 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDivLo.v
-!i122 117
-R44
-R18
+!i122 151
+R26
+R17
 r1
 !s85 0
 31
-R45
+Z43 !s108 1627582343.000000
 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDivLo.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_multOrDivLo.v|
 !i113 1
-R20
-R21
-nmux_mult@or@div3
-vmux_PCSource
-R39
-!i10b 1
-!s100 kNmZC<;zNVeeQ=f82UNca2
-R15
-I1djA?di<XQL=zfmVcUo6H3
-R16
-R4
-Z46 w1627409873
-Z47 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_PCSource.v
-Z48 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_PCSource.v
-!i122 118
-Z49 L0 1 20
 R18
+R19
+nmux_mult@or@div@lo
+vmux_PCSource
+R42
+!i10b 1
+!s100 K0kLTccF2dkk0`Bz8DXI<1
+R14
+If_<n`hP<?1a?3HC>JAmMM3
+R15
+R4
+Z44 w1627514606
+Z45 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_PCSource.v
+Z46 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_PCSource.v
+!i122 152
+Z47 L0 1 20
+R17
 r1
 !s85 0
 31
-R45
-Z50 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_PCSource.v|
-Z51 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_PCSource.v|
+R43
+Z48 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_PCSource.v|
+Z49 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_PCSource.v|
 !i113 1
-R20
-R21
+R18
+R19
 nmux_@p@c@source
 Xmux_PCSource_v_unit
-R38
-R39
+R37
+R42
 V024U7ZBgk[>Cl2lL:anjS1
 r1
 !s85 0
@@ -465,47 +488,47 @@ I024U7ZBgk[>Cl2lL:anjS1
 !i103 1
 S1
 R4
-R46
-R47
-R48
-!i122 118
-Z52 L0 20 0
-R18
-31
+R44
 R45
-R50
-R51
+R46
+!i122 152
+Z50 L0 20 0
+R17
+31
+R43
+R48
+R49
 !i113 1
-R20
-R21
+R18
+R19
 nmux_@p@c@source_v_unit
 vmux_ShiftEntrada
-Z53 !s110 1627432386
+R42
 !i10b 1
 !s100 gm<g2Mk[<Q:m34<@2Emcf3
-R15
+R14
 I7zOEA155l3cM]X[7>:A`z2
-R16
+R15
 R4
 R0
-Z54 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ShiftEntrada.v
-Z55 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ShiftEntrada.v
-!i122 119
-R44
-R18
+Z51 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ShiftEntrada.v
+Z52 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ShiftEntrada.v
+!i122 153
+R26
+R17
 r1
 !s85 0
 31
-Z56 !s108 1627432386.000000
-Z57 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ShiftEntrada.v|
-Z58 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ShiftEntrada.v|
+R43
+Z53 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ShiftEntrada.v|
+Z54 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ShiftEntrada.v|
 !i113 1
-R20
-R21
+R18
+R19
 nmux_@shift@entrada
 Xmux_ShiftEntrada_v_unit
-R38
-R53
+R37
+R42
 V?eIdobBmImbXA3Rl=6PVS2
 r1
 !s85 0
@@ -516,122 +539,146 @@ I?eIdobBmImbXA3Rl=6PVS2
 S1
 R4
 R0
-R54
-R55
-!i122 119
-Z59 L0 10 0
-R18
+R51
+R52
+!i122 153
+L0 10 0
+R17
 31
+R43
+R53
+R54
+!i113 1
+R18
+R19
+nmux_@shift@entrada_v_unit
+vmux_shiftN
+R42
+!i10b 1
+!s100 CAFhG9^4Z3RR]J[jbU^NF1
+R14
+Ib_YUlLcJ9NX]244km8`>90
+R15
+R4
+Z55 w1627514511
+Z56 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_shiftN.v
+Z57 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_shiftN.v
+!i122 154
+R47
+R17
+r1
+!s85 0
+31
+R43
+Z58 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_shiftN.v|
+Z59 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_shiftN.v|
+!i113 1
+R18
+R19
+nmux_shift@n
+Xmux_shiftN_v_unit
+R37
+R42
+V8ND<oG^=O4fa>6XeN@0?U3
+r1
+!s85 0
+!i10b 1
+!s100 :KnVOJnbMT8Tm_kPn;IMK3
+I8ND<oG^=O4fa>6XeN@0?U3
+!i103 1
+S1
+R4
+R55
 R56
 R57
+!i122 154
+R50
+R17
+31
+R43
 R58
+R59
 !i113 1
-R20
-R21
-nmux_@shift@entrada_v_unit
-Xmux_ShiftN_v_unit
-R38
-R53
-VRCoI;j5:D179Tz1>dzYcS2
-r1
-!s85 0
-!i10b 1
-!s100 Tc4`O>gY`;E4YnIJGei`d1
-IRCoI;j5:D179Tz1>dzYcS2
-!i103 1
-S1
-R4
-Z60 w1627347277
-Z61 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ShiftN.v
-Z62 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ShiftN.v
-!i122 120
-R52
 R18
-31
-R56
-Z63 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ShiftN.v|
-Z64 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ShiftN.v|
-!i113 1
-R20
-R21
-nmux_@shift@n_v_unit
+R19
+nmux_shift@n_v_unit
 vmux_ulaA
-R53
+R42
 !i10b 1
-!s100 [?fe>Mgki:NSS]=`Rl9k21
+!s100 zWfmf7>=fY2On[64:kUcb0
+R14
+IY;jL[`HT;_HzL:2a;38F<1
 R15
-IZVX89>CaZ9Pel=oWPKSWQ2
-R16
 R4
-R0
-Z65 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaA.v
-Z66 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaA.v
-!i122 121
-R44
-R18
+Z60 w1627514824
+Z61 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaA.v
+Z62 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaA.v
+!i122 155
+L0 1 17
+R17
 r1
 !s85 0
 31
-R56
-Z67 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaA.v|
-Z68 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaA.v|
+R43
+Z63 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaA.v|
+Z64 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaA.v|
 !i113 1
-R20
-R21
+R18
+R19
 nmux_ula@a
 Xmux_ulaA_v_unit
-R38
-R53
-VQV?behROWMH7>_:Cd84DP1
+R37
+R42
+VObcE:Wd2ZM3]I@0L`f:mZ0
 r1
 !s85 0
 !i10b 1
-!s100 `6DWe7ThYG50VnZ?[M_QI2
-IQV?behROWMH7>_:Cd84DP1
+!s100 QeY?8LXNWL1WkXAJTPNcD2
+IObcE:Wd2ZM3]I@0L`f:mZ0
 !i103 1
 S1
 R4
-R0
-R65
-R66
-!i122 121
-R59
-R18
+R60
+R61
+R62
+!i122 155
+L0 17 0
+R17
 31
-R56
-R67
-R68
+R43
+R63
+R64
 !i113 1
-R20
-R21
+R18
+R19
 nmux_ula@a_v_unit
 vmux_ulaB
-R53
+R42
 !i10b 1
 !s100 baZmmdIR@U8JTCHRY[[DV3
-R15
+R14
 IM?o:FBJO?;>A2:afd`5j11
-R16
+R15
 R4
-Z69 w1627432217
-Z70 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaB.v
-Z71 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaB.v
-!i122 122
+Z65 w1627434291
+Z66 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaB.v
+Z67 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaB.v
+!i122 156
 L0 1 19
-R18
+R17
 r1
 !s85 0
 31
-R56
-Z72 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaB.v|
-Z73 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaB.v|
+R43
+Z68 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaB.v|
+Z69 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_ulaB.v|
 !i113 1
-R20
-R21
+R18
+R19
 nmux_ula@b
 Xmux_ulaB_v_unit
-R38
-R53
+R37
+R42
 VCR8SYBZNbR>Gf[AfK7Gi80
 r1
 !s85 0
@@ -641,47 +688,47 @@ ICR8SYBZNbR>Gf[AfK7Gi80
 !i103 1
 S1
 R4
-R69
-R70
-R71
-!i122 122
+R65
+R66
+R67
+!i122 156
 L0 19 0
-R18
+R17
 31
-R56
-R72
-R73
+R43
+R68
+R69
 !i113 1
-R20
-R21
+R18
+R19
 nmux_ula@b_v_unit
 vmux_WriteData
-R53
+R42
 !i10b 1
 !s100 `YKHP?PF9?8<o<JbBC7G43
-R15
+R14
 IKI0cj;eQlIIB`_U?LFJH;3
-R16
+R15
 R4
-Z74 w1627410237
-Z75 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_WriteData.v
-Z76 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_WriteData.v
-!i122 123
+Z70 w1627410237
+Z71 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_WriteData.v
+Z72 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_WriteData.v
+!i122 157
 L0 1 23
-R18
+R17
 r1
 !s85 0
 31
-R56
-Z77 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_WriteData.v|
-Z78 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_WriteData.v|
+R43
+Z73 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_WriteData.v|
+Z74 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_WriteData.v|
 !i113 1
-R20
-R21
+R18
+R19
 nmux_@write@data
 Xmux_WriteData_v_unit
-R38
-R53
+R37
+R42
 V`c_3G8FK;XGGE>30CY>V]3
 r1
 !s85 0
@@ -691,52 +738,76 @@ I`c_3G8FK;XGGE>30CY>V]3
 !i103 1
 S1
 R4
-R74
-R75
-R76
-!i122 123
+R70
+R71
+R72
+!i122 157
 L0 23 0
-R18
+R17
 31
-R56
-R77
-R78
+R43
+R73
+R74
 !i113 1
-R20
-R21
+R18
+R19
 nmux_@write@data_v_unit
-Xmux_WriteRegister_v_unit
-R38
-Z79 !s110 1627432387
-VYOfmZ1^i^TiGK]>DPCcGk1
+vmux_writeRegister
+R42
+!i10b 1
+!s100 MlYEj3z2RLMdU94O0K`FW0
+R14
+Ij?J:EA:nl3;RzkIcF]GG<1
+R15
+R4
+Z75 w1627514516
+Z76 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_writeRegister.v
+Z77 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_writeRegister.v
+!i122 158
+R47
+R17
+r1
+!s85 0
+31
+R43
+Z78 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_writeRegister.v|
+Z79 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_writeRegister.v|
+!i113 1
+R18
+R19
+nmux_write@register
+Xmux_writeRegister_v_unit
+R37
+R42
+Vl8[UY`B=A:FCb6O@L3MG_1
 r1
 !s85 0
 !i10b 1
-!s100 :;3Xif_KjP2]CFiYPQ9Dj3
-IYOfmZ1^i^TiGK]>DPCcGk1
+!s100 IG4_`GLAH_QW;kIGzdH0H1
+Il8[UY`B=A:FCb6O@L3MG_1
 !i103 1
 S1
 R4
-Z80 w1627430905
-Z81 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_WriteRegister.v
-Z82 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_WriteRegister.v
-!i122 124
-R52
-R18
+R75
+R76
+R77
+!i122 158
+R50
+R17
 31
-Z83 !s108 1627432387.000000
-Z84 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_WriteRegister.v|
-Z85 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/mux_WriteRegister.v|
+R43
+R78
+R79
 !i113 1
-R20
-R21
-nmux_@write@register_v_unit
+R18
+R19
+nmux_write@register_v_unit
 Pram_constants
-!i122 104
+!i122 137
 R0
 R4
+R29
 R30
-R31
 l0
 L47 1
 VBbIcggj=<H_W75Jb?WIoZ0
@@ -746,8 +817,8 @@ R7
 R8
 !i10b 1
 R9
+R31
 R32
-R33
 !i113 1
 R12
 R13
@@ -756,21 +827,21 @@ R0
 R1
 R2
 R3
-!i122 105
+!i122 138
 R4
-Z86 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/RegDesloc.vhd
-Z87 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/RegDesloc.vhd
+Z80 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/RegDesloc.vhd
+Z81 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/RegDesloc.vhd
 l0
 L80 1
 V4GibeROOKf]^CUjTE67Bo0
 !s100 =0ZG0kkZKT?Zo?iX2R9=P1
 R7
 32
-R14
+R8
 !i10b 1
 R9
-Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/RegDesloc.vhd|
-Z89 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/RegDesloc.vhd|
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/RegDesloc.vhd|
+Z83 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/RegDesloc.vhd|
 !i113 1
 R12
 R13
@@ -779,18 +850,18 @@ R1
 R2
 R3
 DEx4 work 9 regdesloc 0 22 4GibeROOKf]^CUjTE67Bo0
-!i122 105
+!i122 138
 l98
 L93 38
 VDFCTADkAb^4XhT09kD<k32
 !s100 3`2HClJO^bJLd6@PodWh?3
 R7
 32
-R14
+R8
 !i10b 1
 R9
-R88
-R89
+R82
+R83
 !i113 1
 R12
 R13
@@ -798,21 +869,21 @@ Eregistrador
 R0
 R2
 R3
-!i122 106
+!i122 139
 R4
-Z90 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Registrador.vhd
-Z91 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Registrador.vhd
+Z84 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Registrador.vhd
+Z85 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Registrador.vhd
 l0
 L53 1
 VD=`aG^VOPEDP69ifb8G;52
 !s100 ^e8=Z<CbNTLXR@XGZJMQo3
 R7
 32
-R14
+R8
 !i10b 1
-R19
-Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Registrador.vhd|
-Z93 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Registrador.vhd|
+R9
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Registrador.vhd|
+Z87 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/Registrador.vhd|
 !i113 1
 R12
 R13
@@ -820,134 +891,110 @@ Abehavioral_arch
 R2
 R3
 DEx4 work 11 registrador 0 22 D=`aG^VOPEDP69ifb8G;52
-!i122 106
+!i122 139
 l66
 L65 19
 V<kVfXRZJUh40ja<<lN_3:3
 !s100 EXKKzlBL1ARAk5TCN4`Vg2
 R7
 32
-R14
+R8
 !i10b 1
-R19
-R92
-R93
+R9
+R86
+R87
 !i113 1
 R12
 R13
 vshift_left2_32
-R79
+Z88 !s110 1627582344
 !i10b 1
 !s100 eKz2bXdKn8NJU]BSZe[HR3
-R15
+R14
 IVZ8EmTYIgz^>UMAeDAb=B0
-R16
+R15
 R4
 w1627348935
 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/shift_left2_32.v
 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/shift_left2_32.v
-!i122 125
-Z94 L0 1 8
-R18
+!i122 159
+Z89 L0 1 8
+R17
 r1
 !s85 0
 31
-R83
+R43
 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/shift_left2_32.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/shift_left2_32.v|
 !i113 1
-R20
-R21
-vShiftN
-R53
-!i10b 1
-!s100 An<fV>T20JNE02f6Hmma73
-R15
-IMemH4L7J1lFAEWkWBaEf^1
-R16
-R4
-R60
-R61
-R62
-!i122 120
-R49
 R18
-r1
-!s85 0
-31
-R56
-R63
-R64
-!i113 1
-R20
-R21
-n@shift@n
+R19
 vsign_extend_16_32
-R79
+R88
 !i10b 1
 !s100 5??fPYCT]hgg[HEE9^BO90
-R15
+R14
 I3hNb98;GJ<;^W?V=Zb7W^0
-R16
+R15
 R4
 w1627348976
 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/sign_extend_16_32.v
 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/sign_extend_16_32.v
-!i122 127
-R94
-R18
+!i122 161
+R89
+R17
 r1
 !s85 0
 31
-R83
+Z90 !s108 1627582344.000000
 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/sign_extend_16_32.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/sign_extend_16_32.v|
 !i113 1
-R20
-R21
+R18
+R19
 vsign_extend_1_32
-R79
+R88
 !i10b 1
 !s100 IjE`R8W0:g4[h[S>Oa7Xl2
-R15
+R14
 Ij6m>caKPgCn^Y<Da]X84l2
-R16
+R15
 R4
 w1627349027
 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/sign_extend_1_32.v
 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/sign_extend_1_32.v
-!i122 126
-R94
-R18
+!i122 160
+R89
+R17
 r1
 !s85 0
 31
-R83
+R90
 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/sign_extend_1_32.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_made/sign_extend_1_32.v|
 !i113 1
-R20
-R21
+R18
+R19
 Eula32
 R0
 R1
 R2
 R3
-!i122 107
+!i122 140
 R4
-Z95 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/ula32.vhd
-Z96 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/ula32.vhd
+Z91 8C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/ula32.vhd
+Z92 FC:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/ula32.vhd
 l0
 L63 1
 VM1`EhBco;Cb9<:6CC>b?e2
 !s100 bGmbVJaTC>R`I<lBgn7@L3
 R7
 32
-R14
+R8
 !i10b 1
-R19
-Z97 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/ula32.vhd|
-Z98 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/ula32.vhd|
+R9
+Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/ula32.vhd|
+Z94 !s107 C:/Users/Admin/Desktop/Projeto-Hardware-2021/parts_given/ula32.vhd|
 !i113 1
 R12
 R13
@@ -956,42 +1003,18 @@ R1
 R2
 R3
 DEx4 work 5 ula32 0 22 M1`EhBco;Cb9<:6CC>b?e2
-!i122 107
+!i122 140
 l89
 L79 138
 VF94M;2UJ^55hCen3Z[Kfk0
 !s100 1E>E2KjDKb=5dkES8U2ha0
 R7
 32
-R14
+R8
 !i10b 1
-R19
-R97
-R98
+R9
+R93
+R94
 !i113 1
 R12
 R13
-vWriteRegister
-R79
-!i10b 1
-!s100 aeXRbhiL:LTJX:[6jzfg?1
-R15
-Idam@7nFPXjYmNk8h3:aPG1
-R16
-R4
-R80
-R81
-R82
-!i122 124
-R49
-R18
-r1
-!s85 0
-31
-R83
-R84
-R85
-!i113 1
-R20
-R21
-n@write@register

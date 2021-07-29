@@ -1,4 +1,4 @@
-module ShiftN(
+module mux_shiftN(
     input wire         [1:0] selector,
     input wire          [15:0] offset,
     input wire          [31:0] b,

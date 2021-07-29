@@ -471,7 +471,7 @@ always @(posedge clk) begin
                     ALUSrcB = 2'b00;
                     ShiftAmt = 2'b00;
                     Exception = 2'b00;
-                    MemToReg = 3'b000; /// ALUOut
+                    MemToReg = 3'b000; 
                     PCSource = 3'b000;
 
                     rst_out = 1'b0;

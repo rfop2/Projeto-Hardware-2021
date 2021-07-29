@@ -82,7 +82,7 @@ module cpu (
         PC_out
     );
 
-    instruction_25 Inst_25_(
+    instruction_25 Instruction_25_(
         OFFSET,
         RS,
         RT,
@@ -180,12 +180,12 @@ module cpu (
         OFFSET
     );
 
-    sign_extend_16_to_32 SE_16_32_(
+    sign_extend_16_32 SE_16_32_(
         OFFSET,
         SE_16_32_out
     );
 
-    sign_extend_1_to_32 SE_1_32_(
+    sign_extend_1_32 SE_1_32_(
         LT,
         SE_1_32_out
     );
@@ -208,12 +208,12 @@ module cpu (
         GT // maior que 
     );
 
-    mux_exception M_EXCEPTION_(
+    mux_Exception M_EXCEPTION_(
         M_EXCEPTION,
         M_EXCEPTION_out
     );
 
-    mux_IorD M_IorD_(
+    mux_Iord M_Iord_(
         M_IorD,
         PC_out,
         ALU_out,
@@ -238,7 +238,7 @@ module cpu (
         ALU_B_input
     );
 
-    mux_shiftInput M_shift_In_(
+    mux_ShiftEntrada M_Shift_Entrada_(
         M_Shift_In,
         ALU_A_input,
         ALU_B_input,
@@ -261,7 +261,7 @@ module cpu (
         Shift_REG_out
     );
 
-    mux_writeReg M_Write_Reg_(
+    mux_writeRegister M_Write_Register_(
         M_WRITE_REG,
         RT,
         OFFSET,
@@ -269,7 +269,7 @@ module cpu (
         WriteReg_input
     );
 
-    mux_writeData M_Write_Data_(
+    mux_WriteData M_Write_Data_(
         M_WRITE_DATA,
         ALUOut_out,
         MDR_out,
@@ -351,7 +351,7 @@ module cpu (
         M_MultOrDivLo_output
     );
 
-    mult MULT_(
+    multiplicacao MULTIPLICACAO_(
         clk,
         reset,
         ALU_A_input,
@@ -360,7 +360,7 @@ module cpu (
         mult_output_lo
     );
 
-    div DIV_(
+    divisao DIVISAO_(
         clk,
         reset,
         ALU_A_input,

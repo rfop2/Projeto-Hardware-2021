@@ -1,4 +1,4 @@
-module WriteRegister(
+module mux_writeRegister(
     input wire           [1:0] selector,
     input wire           [4:0] input_one,
     input wire           [15:0] offset,
