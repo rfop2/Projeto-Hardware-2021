@@ -15,6 +15,6 @@ module mux_writeRegister(
 
     assign A1 = (selector[0]) ? input_two : input_one;
     assign A2 = (selector[0]) ? 5'b11111 : input_three; // 5'b11111 eh ra
-    assign  Data_out = (selector[1]) ? A1 : A2;
+    assign  Data_out = (selector[1]) ? A2 : A1;
     
 endmodule;

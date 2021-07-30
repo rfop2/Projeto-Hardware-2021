@@ -12,9 +12,9 @@ module mux_PCSource(
     wire [31:0] A2;
     wire [31:0] A3;
 
-    assign A1 = (selector[0]) ? Data_0 : Data_1;
+    assign A1 = (selector[0]) ? Data_1 : Data_0;
     assign A2 = (selector[0]) ? Data_3 : Data_2;
-    assign A3 = (selector[0]) ? A2 : A1;
-    assign  Data_out = (selector[1]) ? A3 : Data_4;
+    assign A3 = (selector[1]) ? A2 : A1;
+    assign  Data_out = (selector[2]) ? Data_4 : A3;
     
 endmodule;

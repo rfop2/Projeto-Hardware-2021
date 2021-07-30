@@ -17,18 +17,18 @@
 # Compile of mux_multOrDivLo.v was successful.
 # Compile of mux_PCSource.v was successful with warnings.
 # Compile of mux_ShiftEntrada.v was successful with warnings.
-# Compile of mux_shiftN.v was successful with warnings.
+# Compile of mux_ShiftN.v was successful with warnings.
 # Compile of mux_ulaA.v was successful with warnings.
 # Compile of mux_ulaB.v was successful with warnings.
 # Compile of mux_WriteData.v was successful with warnings.
-# Compile of mux_writeRegister.v was successful with warnings.
+# Compile of mux_WriteRegister.v was successful with warnings.
 # Compile of shift_left2_32.v was successful.
 # Compile of sign_extend_1_32.v was successful.
 # Compile of sign_extend_16_32.v was successful.
 # 27 compiles, 0 failed with no errors.
 vsim work.cpu
 # vsim work.cpu 
-# Start time: 14:45:06 on Jul 29,2021
+# Start time: 21:06:26 on Jul 29,2021
 # Loading work.cpu
 # Loading work.instruction_25
 # Loading work.calc_Jump
@@ -72,304 +72,105 @@ sim:/cpu/clk
 add wave -position insertpoint  \
 sim:/cpu/reset
 add wave -position insertpoint  \
-sim:/cpu/EPC_/Saida
-add wave -position insertpoint  \
 sim:/cpu/PC_/Saida
 add wave -position insertpoint  \
-sim:/cpu/CTRL_/COUNTER
-add wave -position insertpoint  \
-sim:/cpu/CTRL_/STATE
-add wave -position insertpoint  \
-sim:/cpu/MDR_/Saida
-add wave -position insertpoint  \
-sim:/cpu/IR_/Instr31_26 \
-sim:/cpu/IR_/Instr25_21 \
-sim:/cpu/IR_/Instr20_16 \
-sim:/cpu/IR_/Instr15_0
-add wave -position insertpoint  \
 sim:/cpu/BR_/Cluster(15)
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/cpu/BR_/Cluster(20)
+# Note :: PA Debug File '' not found. PA Dataflow Coloring not enabled.
 add wave -position insertpoint  \
 sim:/cpu/BR_/Cluster(20)
 add wave -position insertpoint  \
 sim:/cpu/BR_/Cluster(25)
+add wave -position insertpoint  \
+sim:/cpu/CTRL_/STATE
+add wave -position insertpoint  \
+sim:/cpu/CTRL_/COUNTER
+add wave -position insertpoint  \
+sim:/cpu/CTRL_/OPCODE
+force -freeze sim:/cpu/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/cpu/clk 1 0, 0 {50 ps} -r 100
 run
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 0  Instance: /cpu/BR_
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 0  Instance: /cpu/BR_
-# ** Warning: (vsim-7) Failed to open VHDL file "instrucoes.mif" in rb mode.
-# No such file or directory. (errno = ENOENT)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ps  Iteration: 0  Instance: /cpu/MEM_/MEM_plus_Three
-# ** Fatal: (vsim-7) Failed to open VHDL file "instrucoes.mif" in rb mode.
-# No such file or directory. (errno = ENOENT)
-#    Time: 0 ps  Iteration: 0  Process: /cpu/MEM_/MEM_plus_Three/MEMORY File: C:/intelFPGA/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/220model/220model.vhd
-# Fatal error in Process MEMORY at C:/intelFPGA/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/220model/220model.vhd line 4360
-# 
-# HDL call sequence:
-# Stopped at C:/intelFPGA/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/220model/220model.vhd 4360 Process MEMORY
-# 
-# A time value could not be extracted from the current line
-# A time value could not be extracted from the current line
-# A time value could not be extracted from the current line
-# A time value could not be extracted from the current line
-# Compile of Banco_reg.vhd was successful.
-# Compile of Instr_Reg.vhd was successful.
-# Compile of Memoria.vhd was successful.
-# Compile of RegDesloc.vhd was successful.
-# Compile of Registrador.vhd was successful.
-# Compile of ula32.vhd was successful.
-# Compile of calc_jump.v was successful.
-# Compile of cpu.v was successful.
-# Compile of ctrl_unit.v was successful with warnings.
-# Compile of divisao.v was successful.
-# Compile of instruction_25.v was successful.
-# Compile of multiplicacao.v was successful.
-# Compile of mux_Exception.v was successful with warnings.
-# Compile of mux_Iord.v was successful with warnings.
-# Compile of mux_multOrDiv.v was successful.
-# Compile of mux_multOrDivHi.v was successful.
-# Compile of mux_multOrDivLo.v was successful.
-# Compile of mux_PCSource.v was successful with warnings.
-# Compile of mux_ShiftEntrada.v was successful with warnings.
-# Compile of mux_shiftN.v was successful with warnings.
-# Compile of mux_ulaA.v was successful with warnings.
-# Compile of mux_ulaB.v was successful with warnings.
-# Compile of mux_WriteData.v was successful with warnings.
-# Compile of mux_writeRegister.v was successful with warnings.
-# Compile of shift_left2_32.v was successful.
-# Compile of sign_extend_1_32.v was successful.
-# Compile of sign_extend_16_32.v was successful.
-# 27 compiles, 0 failed with no errors.
-# Compile of Banco_reg.vhd was successful.
-# Compile of Instr_Reg.vhd was successful.
-# Compile of Memoria.vhd was successful.
-# Compile of RegDesloc.vhd was successful.
-# Compile of Registrador.vhd was successful.
-# Compile of ula32.vhd was successful.
-# Compile of calc_jump.v was successful.
-# Compile of cpu.v was successful.
-# Compile of ctrl_unit.v was successful with warnings.
-# Compile of divisao.v was successful.
-# Compile of instruction_25.v was successful.
-# Compile of multiplicacao.v was successful.
-# Compile of mux_Exception.v was successful with warnings.
-# Compile of mux_Iord.v was successful with warnings.
-# Compile of mux_multOrDiv.v was successful.
-# Compile of mux_multOrDivHi.v was successful.
-# Compile of mux_multOrDivLo.v was successful.
-# Compile of mux_PCSource.v was successful with warnings.
-# Compile of mux_ShiftEntrada.v was successful with warnings.
-# Compile of mux_shiftN.v was successful with warnings.
-# Compile of mux_ulaA.v was successful with warnings.
-# Compile of mux_ulaB.v was successful with warnings.
-# Compile of mux_WriteData.v was successful with warnings.
-# Compile of mux_writeRegister.v was successful with warnings.
-# Compile of shift_left2_32.v was successful.
-# Compile of sign_extend_1_32.v was successful.
-# Compile of sign_extend_16_32.v was successful.
-# 27 compiles, 0 failed with no errors.
-run
-# Cannot continue because of fatal error.
-# HDL call sequence:
-# Stopped at C:/intelFPGA/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/220model/220model.vhd 4360 Process MEMORY
-# 
-run
-# Cannot continue because of fatal error.
-# HDL call sequence:
-# Stopped at C:/intelFPGA/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/220model/220model.vhd 4360 Process MEMORY
-# 
-quit -sim
-# End time: 14:57:55 on Jul 29,2021, Elapsed time: 0:12:49
-# Errors: 1, Warnings: 11
-vsim work.cpu
-# vsim work.cpu 
-# Start time: 14:58:04 on Jul 29,2021
-# Loading work.cpu
-# Loading work.instruction_25
-# Loading work.calc_Jump
-# Loading work.mux_PCSource
-# Loading work.sign_extend_16_32
-# Loading work.sign_extend_1_32
-# Loading work.shift_left2_32
-# Loading work.mux_Exception
-# Loading work.mux_Iord
-# Loading work.mux_ulaA
-# Loading work.mux_ulaB
-# Loading work.mux_ShiftEntrada
-# Loading work.mux_shiftN
-# Loading work.mux_writeRegister
-# Loading work.mux_WriteData
-# Loading work.ctrl_unit
-# Loading work.mux_multOrDiv
-# Loading work.mux_multOrDivHi
-# Loading work.mux_multOrDivLo
-# Loading work.multiplicacao
-# Loading work.divisao
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.registrador(behavioral_arch)
-# Loading ieee.numeric_std(body)
-# Loading lpm.lpm_components
-# Loading work.ram_constants
-# Loading work.memoria(behavioral_arch)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading lpm.lpm_common_conversion(body)
-# Loading lpm.lpm_device_families(body)
-# Loading lpm.lpm_ram_dq(lpm_syn)
-# Loading work.instr_reg(behavioral_arch)
-# Loading work.ula32(behavioral)
-# Loading work.regdesloc(behavioral_arch)
-# Loading work.banco_reg(behavioral_arch)
-add wave -position insertpoint  \
-sim:/cpu/clk
-add wave -position insertpoint  \
-sim:/cpu/reset
-add wave -position insertpoint  \
-sim:/cpu/PC_/Saida
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /cpu/BR_
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /cpu/BR_
-# ** Warning: (vsim-7) Failed to open VHDL file "instrucoes.mif" in rb mode.
-# No such file or directory. (errno = ENOENT)
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
 #    Time: 0 ps  Iteration: 0  Instance: /cpu/MEM_/MEM_plus_Three
-# ** Fatal: (vsim-7) Failed to open VHDL file "instrucoes.mif" in rb mode.
-# No such file or directory. (errno = ENOENT)
-#    Time: 0 ps  Iteration: 0  Process: /cpu/MEM_/MEM_plus_Three/MEMORY File: C:/intelFPGA/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/220model/220model.vhd
-# Fatal error in Process MEMORY at C:/intelFPGA/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/220model/220model.vhd line 4360
-# 
-# HDL call sequence:
-# Stopped at C:/intelFPGA/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/220model/220model.vhd 4360 Process MEMORY
-# 
-pwd
-# C:/Users/Admin/Desktop/Projeto-Hardware-2021
-# Compile of Banco_reg.vhd was successful.
-# Compile of Instr_Reg.vhd was successful.
-# Compile of Memoria.vhd was successful.
-# Compile of RegDesloc.vhd was successful.
-# Compile of Registrador.vhd was successful.
-# Compile of ula32.vhd was successful.
-# Compile of calc_jump.v was successful.
-# Compile of cpu.v was successful.
-# Compile of ctrl_unit.v was successful with warnings.
-# Compile of divisao.v was successful.
-# Compile of instruction_25.v was successful.
-# Compile of multiplicacao.v was successful.
-# Compile of mux_Exception.v was successful with warnings.
-# Compile of mux_Iord.v was successful with warnings.
-# Compile of mux_multOrDiv.v was successful.
-# Compile of mux_multOrDivHi.v was successful.
-# Compile of mux_multOrDivLo.v was successful.
-# Compile of mux_PCSource.v was successful with warnings.
-# Compile of mux_ShiftEntrada.v was successful with warnings.
-# Compile of mux_shiftN.v was successful with warnings.
-# Compile of mux_ulaA.v was successful with warnings.
-# Compile of mux_ulaB.v was successful with warnings.
-# Compile of mux_WriteData.v was successful with warnings.
-# Compile of mux_writeRegister.v was successful with warnings.
-# Compile of shift_left2_32.v was successful.
-# Compile of sign_extend_1_32.v was successful.
-# Compile of sign_extend_16_32.v was successful.
-# 27 compiles, 0 failed with no errors.
-# Compile of Banco_reg.vhd was successful.
-# Compile of Instr_Reg.vhd was successful.
-# Compile of Memoria.vhd was successful.
-# Compile of RegDesloc.vhd was successful.
-# Compile of Registrador.vhd was successful.
-# Compile of ula32.vhd was successful.
-# Compile of calc_jump.v was successful.
-# Compile of cpu.v was successful.
-# Compile of ctrl_unit.v was successful with warnings.
-# Compile of divisao.v was successful.
-# Compile of instruction_25.v was successful.
-# Compile of multiplicacao.v was successful.
-# Compile of mux_Exception.v was successful with warnings.
-# Compile of mux_Iord.v was successful with warnings.
-# Compile of mux_multOrDiv.v was successful.
-# Compile of mux_multOrDivHi.v was successful.
-# Compile of mux_multOrDivLo.v was successful.
-# Compile of mux_PCSource.v was successful with warnings.
-# Compile of mux_ShiftEntrada.v was successful with warnings.
-# Compile of mux_shiftN.v was successful with warnings.
-# Compile of mux_ulaA.v was successful with warnings.
-# Compile of mux_ulaB.v was successful with warnings.
-# Compile of mux_WriteData.v was successful with warnings.
-# Compile of mux_writeRegister.v was successful with warnings.
-# Compile of shift_left2_32.v was successful.
-# Compile of sign_extend_1_32.v was successful.
-# Compile of sign_extend_16_32.v was successful.
-# 27 compiles, 0 failed with no errors.
-run
-# Cannot continue because of fatal error.
-# HDL call sequence:
-# Stopped at C:/intelFPGA/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/220model/220model.vhd 4360 Process MEMORY
-# 
-quit -sim
-# End time: 15:09:54 on Jul 29,2021, Elapsed time: 0:11:50
-# Errors: 1, Warnings: 6
-vsim work.cpu
-# vsim work.cpu 
-# Start time: 15:10:08 on Jul 29,2021
-# Loading work.cpu
-# Loading work.instruction_25
-# Loading work.calc_Jump
-# Loading work.mux_PCSource
-# Loading work.sign_extend_16_32
-# Loading work.sign_extend_1_32
-# Loading work.shift_left2_32
-# Loading work.mux_Exception
-# Loading work.mux_Iord
-# Loading work.mux_ulaA
-# Loading work.mux_ulaB
-# Loading work.mux_ShiftEntrada
-# Loading work.mux_shiftN
-# Loading work.mux_writeRegister
-# Loading work.mux_WriteData
-# Loading work.ctrl_unit
-# Loading work.mux_multOrDiv
-# Loading work.mux_multOrDivHi
-# Loading work.mux_multOrDivLo
-# Loading work.multiplicacao
-# Loading work.divisao
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.registrador(behavioral_arch)
-# Loading ieee.numeric_std(body)
-# Loading lpm.lpm_components
-# Loading work.ram_constants
-# Loading work.memoria(behavioral_arch)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading lpm.lpm_common_conversion(body)
-# Loading lpm.lpm_device_families(body)
-# Loading lpm.lpm_ram_dq(lpm_syn)
-# Loading work.instr_reg(behavioral_arch)
-# Loading work.ula32(behavioral)
-# Loading work.regdesloc(behavioral_arch)
-# Loading work.banco_reg(behavioral_arch)
-add wave -position insertpoint  \
-sim:/cpu/clk
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /cpu/BR_
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /cpu/BR_
-# ** Warning: (vsim-7) Failed to open VHDL file "instrucoes.mif" in rb mode.
-# No such file or directory. (errno = ENOENT)
+# ** Error: Unknown intended_device_family UNUSED
 #    Time: 0 ps  Iteration: 0  Instance: /cpu/MEM_/MEM_plus_Three
-# ** Fatal: (vsim-7) Failed to open VHDL file "instrucoes.mif" in rb mode.
-# No such file or directory. (errno = ENOENT)
-#    Time: 0 ps  Iteration: 0  Process: /cpu/MEM_/MEM_plus_Three/MEMORY File: C:/intelFPGA/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/220model/220model.vhd
-# Fatal error in Process MEMORY at C:/intelFPGA/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/220model/220model.vhd line 4360
-# 
-# HDL call sequence:
-# Stopped at C:/intelFPGA/20.1/modelsim_ase/win32aloem/../altera/vhdl/src/220model/220model.vhd 4360 Process MEMORY
-# 
-pwd
-# C:/Users/Admin/Desktop/Projeto-Hardware-2021
-# End time: 15:11:39 on Jul 29,2021, Elapsed time: 0:01:31
-# Errors: 1, Warnings: 4
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/MEM_/MEM_plus_Two
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/MEM_/MEM_plus_Two
+# ** Error: Unknown intended_device_family UNUSED
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/MEM_/MEM_plus_Two
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/MEM_/MEM_plus_One
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/MEM_/MEM_plus_One
+# ** Error: Unknown intended_device_family UNUSED
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/MEM_/MEM_plus_One
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/MEM_/MEM
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/MEM_/MEM
+# ** Error: Unknown intended_device_family UNUSED
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/MEM_/MEM
+# ** Error: (vsim-86) Argument value -2147483648 is not in bounds of subtype NATURAL.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/MEM_
+# ** Error: (vsim-86) Argument value -2147483648 is not in bounds of subtype NATURAL.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/MEM_
+# ** Error: (vsim-86) Argument value -2147483648 is not in bounds of subtype NATURAL.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/MEM_
+# ** Error: (vsim-86) Argument value -2147483648 is not in bounds of subtype NATURAL.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/MEM_
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /cpu/MEM_
+# ** Error: (vsim-86) Argument value -2147483645 is not in bounds of subtype NATURAL.
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/MEM_
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/MEM_
+# ** Error: (vsim-86) Argument value -2147483646 is not in bounds of subtype NATURAL.
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/MEM_
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/MEM_
+# ** Error: (vsim-86) Argument value -2147483647 is not in bounds of subtype NATURAL.
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/MEM_
+# ** Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+#    Time: 0 ps  Iteration: 1  Instance: /cpu/MEM_
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 22:36:15 on Jul 29,2021, Elapsed time: 1:29:49
+# Errors: 11, Warnings: 20

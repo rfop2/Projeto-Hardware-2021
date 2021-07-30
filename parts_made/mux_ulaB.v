@@ -12,8 +12,8 @@ module mux_ulaB(
     wire [31:0] A2;
 
     assign A1 = (selector[0]) ? 32'b00000000000000000000000000000100 : Data_0; // numero 4(11) - Data_ 0 (10)
-    assign A2 = (selector[0]) ? Data_1 : Data_2; // Data_ 1 (01) - Data_2 (00)
+    assign A2 = (selector[0]) ? Data_2 : Data_1; // Data_ 1 (01) - Data_2 (00)
 
-    assign  Data_out = (selector[1]) ? A1 : A2;
+    assign  Data_out = (selector[1]) ? A2 : A1;
     
 endmodule;

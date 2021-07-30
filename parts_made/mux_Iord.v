@@ -8,7 +8,7 @@ module mux_Iord(
 
     wire [31:0] A1;
 
-    assign A1 = (selector[0]) ? Data_0 : Data_1;
-    assign  Data_out = (selector[1]) ? A1 : Data_2;
+    assign A1 = (selector[0]) ? Data_1 : Data_0;
+    assign  Data_out = (selector[1]) ? Data_2 : A1;
     
 endmodule;

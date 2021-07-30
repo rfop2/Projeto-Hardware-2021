@@ -15,6 +15,6 @@ module mux_shiftN(
     assign input_two = b[4:0];
 
     assign A1 = (selector[0]) ? input_two : input_one;
-    assign  Data_out = (selector[1]) ? A1 : 5'b10000;
+    assign  Data_out = (selector[1]) ? 5'b10000 : A1;
     
 endmodule;
