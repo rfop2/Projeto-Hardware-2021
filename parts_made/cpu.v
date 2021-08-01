@@ -9,24 +9,16 @@ module cpu (
     wire BR_w;
     wire AB_w;
     wire EPC_w;
-    wire HI_w;
-    wire LO_w;
     wire MDR_w;
     wire ALUOut_w;
     wire [2:0] ALU_op;
-    wire [2:0] Shift_op;
     wire [1:0] M_SrcA;
     wire [1:0] M_SrcB;
     wire [1:0] M_EXCEPTION;
     wire [1:0] M_IorD;
     wire [1:0] M_WRITE_REG;
     wire [2:0] M_WRITE_DATA;
-    wire M_Mult_Or_Div;
-    wire M_Hi_Or_Lo;
     wire [2:0] M_PCSource;
-    wire M_Shift_In;
-    wire [1:0] M_Shift_N;
-    wire exception_Div;
 
     // Data wires
     wire [31:0] PC_input;
@@ -51,22 +43,10 @@ module cpu (
     wire [31:0] B_out;
     wire [31:0] ALU_A_input;
     wire [31:0] ALU_B_input;
-    wire [31:0] HI_LO_input;
     wire [31:0] ALU_out;
     wire [31:0] ALUOut_out;
-    wire [31:0] HI_out;
-    wire [31:0] LO_out;
-    wire [31:0] M_Shift_In_out;
-    wire [31:0] Shift_REG_out;
-    wire [31:0] mult_output_hi;
-    wire [31:0] mult_output_lo;
-    wire [31:0] div_output_hi;
-    wire [31:0] div_output_lo;
-    wire [31:0] M_MultOrDivHi_output;
-    wire [31:0] M_MultOrDivLo_output;
     wire [25:0] jump_wire;
     wire [31:0] jump_out;
-    wire [4:0] M_Shift_N_out;
     wire O;
     wire N;
     wire Z;
@@ -121,21 +101,6 @@ module cpu (
         A_out
     );
 
-    Registrador HI_(
-        clk,
-        reset,
-        HI_w,
-        HI_LO_input,
-        HI_out
-    );
-
-    Registrador LO_(
-        clk,
-        reset,
-        LO_w,
-        HI_LO_input,
-        LO_out
-    );
 
     Registrador EPC_(
         clk,
@@ -185,11 +150,7 @@ module cpu (
         SE_16_32_out
     );
 
-    sign_extend_1_32 SE_1_32_(
-        LT,
-        SE_1_32_out
-    );
-
+   
     shift_left2_32 SL_32 (
         SE_16_32_out,
         SL_32_out
@@ -238,28 +199,6 @@ module cpu (
         ALU_B_input
     );
 
-    mux_ShiftEntrada M_Shift_Entrada_(
-        M_Shift_In,
-        ALU_A_input,
-        ALU_B_input,
-        M_Shift_In_out
-    );
-
-    mux_shiftN M_shift_N_(
-        M_Shift_N,
-        OFFSET,
-        ALU_B_input,
-        M_Shift_N_out
-    );
-
-    RegDesloc Shift_REG_(
-        clk,
-        reset,
-        Shift_op,
-        M_Shift_N_out,
-        M_Shift_In_out,
-        Shift_REG_out
-    );
 
     mux_writeRegister M_Write_Register_(
         M_WRITE_REG,
@@ -273,9 +212,6 @@ module cpu (
         M_WRITE_DATA,
         ALUOut_out,
         MDR_out,
-        HI_out,
-        LO_out,
-        Shift_REG_out,
         SE_1_32_out,
         WriteData_input
     );
@@ -301,7 +237,6 @@ module cpu (
         EQ, // equal
         LT, // menor que
         GT, // maior que
-        exception_Div,
         OPCODE,
         OFFSET,
         PC_w,
@@ -310,65 +245,18 @@ module cpu (
         BR_w,
         AB_w,
         EPC_w,
-        HI_w,
-        LO_w,
         MDR_w,
         ALUOut_w,
         ALU_op,
-        Shift_op,
-        M_Mult_Or_Div,
-        M_Hi_Or_Lo,
-        M_Shift_In,
         M_IorD,
         M_WRITE_REG,
         M_SrcA,
         M_SrcB,
-        M_Shift_N,
         M_EXCEPTION,
         M_WRITE_DATA,
         M_PCSource,
         reset
     );
 
-    mux_multOrDiv M_MultOrDiv_(
-        M_Mult_Or_Div,
-        M_MultOrDivHi_output,
-        M_MultOrDivLo_output,
-        HI_LO_input
-    );
-
-    mux_multOrDivHi M_MultOrDivHi_(
-        M_Hi_Or_Lo,
-        mult_output_hi,
-        div_output_hi,
-        M_MultOrDivHi_output
-    );
-
-    mux_multOrDivLo M_MultOrDivLo_(
-        M_Hi_Or_Lo,
-        mult_output_lo,
-        div_output_lo,
-        M_MultOrDivLo_output
-    );
-
-    multiplicacao MULTIPLICACAO_(
-        clk,
-        reset,
-        ALU_A_input,
-        ALU_B_input,
-        mult_output_hi,
-        mult_output_lo
-    );
-
-    divisao DIVISAO_(
-        clk,
-        reset,
-        ALU_A_input,
-        ALU_B_input,
-        div_output_hi,
-        div_output_lo,
-        exception_Div
-
-    );
     
 endmodule
